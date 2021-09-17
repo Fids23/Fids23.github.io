@@ -1,2 +1,2 @@
-# Fids23.github.io
+# Дмитрий Хомский
 My first project
