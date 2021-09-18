@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<title>CSS. Часть №3 (Свойства блоков - отступы, размеры, характеристики)</title>
+		<link rel="stylesheet" href="css/style.css" />
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+	</head>
+	<body>
+		<header>
+			<nav>
+				<div class="logo">Дмитрий Хомский</div>
+				<div class="menu">
+					<ul class="menu_list">
+						<li>ОБО МНЕ</li>
+						<li>УСЛУГИ</li>
+						<li>КЕЙСЫ</li>
+						<li>ПРАЙС</li>
+						<li>ОТЗЫВЫ</li>
+						<li>КОНТАКТЫ</li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+		<main>
+				<h1>Привет<br>Я Дмитрий Хомский</h1>
+				<h4>Фулл стек веб-разработчик и Android-разработчик</h4>
+			<div class="about_myself">
+				<h3>ОБО МНЕ</h3>
+				<img src='img/icons/line.png' alt="Error download picture">
+				<div class="text">
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel deleniti facilis vitae temporibus nobis odit aspernatur pariatur laboriosam praesentium veniam, adipisci esse commodi vero totam cupiditate laborum quasi ut dolore.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi sequi ducimus consequatur voluptas eligendi labore, nemo. Neque dicta odio, officiis impedit, porro atque enim, rem perferendis reprehenderit culpa delectus, aperiam.</p>
+				</div>
+				<div class="resume">
+					<input type="text" placeholder="скачать резюме">
+				</div>
+			</div>
+			<div class="my_skils">
+				<h3>ЧТО Я УМЕЮ</h3>
+				<img src="img/icons/line.png" alt="Error download picture">
+				<ul class="my_skils_list">
+					<li>
+						<img src="img/icons/nout.png" alt="Error download picture">
+						<h5>Веб дизайн</h5>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, omnis.</p>
+					</li>
+					<li>
+						<img src="img/icons/znak.png" alt="Error download picture">
+						<h5>Разработка</h5>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, nemo!</p>
+					</li>
+					<li>
+						<img src="img/icons/raketa.png" alt="Error download picture">
+						<h5>SEO-Оптимизация</h5>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, nemo!</p>
+					</li>
+					<li>
+						<img src="img/icons/grammofon.png" alt="Error download picture">
+						<h5>Маркетинг</h5>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, nemo!</p>
+					</li>
+				</ul>
+			</div>
+			<div class="case">
+				<h3>КЕЙСЫ</h3>
+				<img src='img/icons/line.png' alt="Error download picture">
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, dolores.</p>
+				<img src="img/example.jpg" alt="Error download picture">
+				<div class="example"><!--Как сдесь лучше поступить? таблица,список или оставить отдельными контейнерами?-->
+					<div>
+						<h4>CLIENT</h4>
+						<p>Какая-то компания</p>
+					</div>
+					<div>
+						<h4>НАЗВАНИЕ ПРОЕКТА</h4>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis dolor facere aliquid nemo, repudiandae perferendis..</p>
+					</div>
+					<div>
+						<h4>WEBSITE</h4>
+						<a href="http://www.somedomain.com" class="_blank">http://www.somedomain.com</a>
+					</div>
+				</div>
+			</div>
+			<div class="calculation"> <!-- Как сдесь лучше поступить,список или отдельные контейнеры?-->
+				<h2>Расчет стоимости</h2>
+				<ul class="calculation_list">
+					<li>
+						<div>
+							<h4>ТИП САЙТА</h4> <!--Как сделать выпадающий список с пропадающей надписью как placeholder?-->
+							<select name="type_index">
+								<option value="#"></option>
+							</select>
+						</div>
+					</li>
+					<li>
+						<div>
+							<h4>ДИЗАЙН</h4>
+							<select name="disain">
+								<option value="#"></option>
+							</select>
+						</div>
+					</li>
+					<li>
+						<div>
+							<h4>АДАПТИВНОСТЬ</h4>
+							<select name="adaptive">
+								<option value="#"></option>
+							</select>
+						</div>
+					</li>
+				</ul>
+				<div>
+					<h6>Сроки</h6><!-- Как сдесь сделать? в макете отображаеться как картинка,я так понял плучаеться как форма выводящая конечные цифры на основе  input?-->
+					<h6>Стоимость</h6>
+				</div>
+			</div>
+			<div class="static">
+				<h3>НЕМНОГО СТАТИКИ</h3>
+				<img src='img/icons/line.png' alt="Error download picture">
+				<ul class="static_list">
+					<li>
+						<img src="img/icons/smayl.png" alt="Error download picture">
+						<p><b>120</b><br>СЧАСТЛИВЫХ КЛИЕНТОВ</p>
+					</li>
+					<li>
+						<img src="img/icons/skobki.png" alt="Error download picture">
+						<p><b>4,600</b><br>ЧАСОВ РАБОТЫ</p>
+					</li>
+					<li>
+						<img src="img/icons/galochka.png" alt="Error download picture">
+						<p><b>340</b><br>ПРОЕКТОВ ЗАВЕРШЕНО</p>
+					</li>
+					<li>
+						<img src="img/icons/kubok.png" alt="Error download picture">
+						<p><b>23</b><br>НАГРАД ПОЛУЧЕНО</p>
+					</li>
+				</ul>
+			</div>
+			<div class="reviews">
+				<h3>ОТЗЫВЫ</h3>
+				<img src="img/icons/line.png" alt="Error download picture">
+				<img src="img/fotka.jpg" alt="Error download picture">
+				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur dicta ullam quos perspiciatis, nesciunt, ex deserunt! </p>
+				<p>Михаил, Ген директор ПАО “Газпром”.</p>
+			</div>
+		</main>
+		<footer>
+			<div class="contact">
+				<h3>МОИ КОНТАКТЫ</h3>
+				<img src='img/icons/line.png' alt="Error download picture">
+				<p>Lorem ipsum dolor, sit, amet consectetur adipisicing elit.</p>
+				<ul class="contact_list">
+					<li><img src='img/icons/geo_195.png' alt="Error download picture">
+						<p>Санкт-Петербург<br>Невский проспект 11</p>
+					</li>
+					<li>
+						<img src='img/icons/konvert_196.png' alt="Error download picture">
+						<p>info@companyname.com</p><!--Пока оставлю текстом, не ссылкой-->
+					</li>
+					<li>
+						<img src='img/icons/truba_197.png' alt="Error download picture">
+						<p>+7 999 999-99-99</p>
+					</li>
+				</ul>
+			</div>
+			<div class="messege">
+				<h4>ОСТАВЬТЕ МНЕ СООБЩЕНИЕ</h4>
+				<ul class="messege_list">
+					<li>
+						<input type="text" name="username" placeholder="Имя">
+					</li>
+					<li>
+						<input type="tel" name="email" placeholder="Email">
+					</li>
+					<li>
+						<textarea name="text" placeholder="Сообщение"></textarea>
+					</li>
+				</ul>
+			</div>
+			<div>
+				<button>Отправить</button>
+			</div>
+			<div class="label_bottom">
+				<ul class="label_bottom_list">
+					<li>
+						<img src="img/icons/fb_200.png" alt="Error download picture">
+					</li>
+					<li>
+						<img src="img/icons/tviter_201.png" alt="Error download picture">
+					</li>
+					<li>
+						<img src="img/icons/myach_202.png" alt="Error download picture">
+					</li>
+					<li>
+						<img src="img/icons/kisa_203.png" alt="Error download picture">
+					</li>
+					<li>
+						<img src="img/icons/inst_204.png" alt="Error download picture">
+					</li>
+					<li>
+						<img src="img/icons/in_205.png" alt="Error download picture">
+					</li>
+				</ul>
+			</div>
+			<div class="location">
+				
+			</div>
+			<div class="bottom">
+				<p>
+					Copyright © 2021 Дмитрий Хомский. Design by Web
+				</p>
+			</div>
+
+
+		</footer>
+	</body>
+</html>
