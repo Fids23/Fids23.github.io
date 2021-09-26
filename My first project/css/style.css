@@ -32,3 +32,396 @@ ul li{list-style: none;}
 img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*--------------------*/
+body{
+	font-family: Arial, sans-serif;
+
+}
+nav{
+	width: 100%;
+	height: 61px;
+	background: #344051;
+}
+.logo {
+	font-size: 23.4px;
+	line-height: 61px;
+	color: #ffffff;
+	padding-left: 387px;
+	float: left;
+}
+.menu {
+	float: left;
+	padding-left: 428px;
+}
+.menu_list li {
+	font-size: 16px;
+	line-height: 61px;
+	color: #ffffff;
+	float: left;
+	margin-right: 40px;
+	text-transform: uppercase;
+}
+.main{
+	width: 100%;
+	height: calc(100% - 61px);
+	background: url('../img/paren.jpg')90% 100%/auto 85% no-repeat,url('../img/fon.jpg') center/cover no-repeat;
+}
+.container{
+	margin: 400px 0px 0px 300px;
+	float: left;
+	color: #2c384a;
+	text-align: center;
+}
+.container h1{
+font-size: 79.2px;
+color: #2c384a;
+font-weight: bold;
+}
+.container h4{
+	font-size: 20.9px;
+	color: #79818d;
+	margin-top: 29px;
+}
+.container input{
+	width: 126px;
+	height: 42px;
+	border: 0.5px solid #6d7682;
+	border-radius: 5px;
+	margin: 50px 26px 0px 0px;
+	font-size: 18.9px;
+	color: #6d7682;
+}
+.about_myself h3{
+	font-size: 33.4px;
+	color: #263244;
+	text-align: center;
+	margin:75px 0px 31px 0px;
+	font-weight: bold;
+	line-height: 172px;
+	letter-spacing: -0.06em;
+	background: url('../img/icons/line.png') 50% 75%/auto no-repeat;
+}
+.round_foto {
+	height: 202px;
+	background: url('../img/paren_grey.jpg') 50% -30%/auto no-repeat;
+	margin-bottom: 22px;
+}
+.text{ 
+	height: 110px;
+	width: 735px;
+	margin-left: 1050px;
+}
+.text p{
+	font-family: Calibri;
+	font-size: 17.7px;
+	line-height: 17.7px;
+	letter-spacing: -0.06em;
+	color: #3f495a;
+	margin-bottom: 20px;
+}
+.resume{
+	height: 34px;
+	border: 0.5px solid #6f707e;
+	border-radius: 6px;
+	display: inline-block;
+	line-height: 34px;
+	font-size: 16.7px;
+	letter-spacing: -0.06em;
+	color: #6f707e;
+	margin: 0px 0px 111px 1350px;
+	padding: 0px 12px;
+}
+.resume span{
+	color: #6f707e;
+	background: url('../img/icons/download.png') left no-repeat;
+	padding-left: 20px;
+}
+.my_skills{
+	width: 100%;
+	background: url('../img/fon_2.jpg') 90% 100%/auto no-repeat;
+	padding: 0px 275px;
+	height: 523px;
+}
+.my_skills h3{
+	text-align: center;
+	font-size: 33.4px;
+	letter-spacing: -0.06em;
+	color: #263244;
+	font-weight: bold;
+	padding: 107px 0px 31px 0px;
+	background: url('../img/icons/line.png') bottom no-repeat;
+}
+.my_skills_list{
+	margin-left: 530px;
+}
+.my_skills_list li{
+	float: left;
+	margin:85px 0px 0px 83px;
+	padding-top: 40px;
+}
+.my_skills_list h5{
+	border: 1px solid rgba(255,255,255,0.18);
+	font-family: Bahnschrift;
+	font-size: 18.6px;
+	font-weight: 600px;
+	letter-spacing: -0.06em;
+	color: #cf7600;
+	line-height:35px;
+	text-align: center; 
+	padding: 34px 0px 0px 0px;
+}
+.my_skills_list li:nth-child(1){
+	background: url('../img/icons/nout.png') 50% 0%/auto no-repeat;
+}
+.my_skills_list li:nth-child(2){
+	background: url('../img/icons/znak.png') 50% 0%/auto no-repeat;
+}
+.my_skills_list li:nth-child(3){
+	background: url('../img/icons/raketa.png') 50% 0%/auto no-repeat;
+}
+.my_skills_list li:nth-child(4){
+	background: url('../img/icons/grammofon.png') 50% 0%/auto no-repeat;
+}
+.my_skills_list p{
+	font-family: Calibri;
+	font-size: 16.7px;
+	line-height: 1.2;
+	font-weight: 400;
+	letter-spacing: -0.06em;
+	color: #3f495a;
+	width: 200px;
+	margin-top: 5px;
+	text-align: center;
+}
+.case{
+margin-top: 103px;
+}
+.case_title{
+	text-align: center;
+}
+.case_title h3{
+	font-family: 'Franklin Gothic';
+	font-size: 33.4px;
+	line-height: 20px;
+	font-weight: bold;
+	letter-spacing: -0.06em;
+	color: #384354;
+	background: url('../img/icons/line.png') bottom no-repeat;
+	padding-bottom: 30px;
+}
+.case_title p{
+	margin-top: 24px;
+	font-family: Calibri;
+	font-size: 16.7px;
+	line-height: 1.2;
+	font-weight: 400;
+	letter-spacing: -0.06em;
+	color: #3f495a;
+}
+.case_img{
+	width: 1169px;
+	height: 592px;
+	padding: 0% 50%;
+	margin-top: 39px;
+	background: url('../img/example.jpg') center no-repeat;
+}
+.case_botom{
+	padding-left:300px;
+	margin-top: 38px;
+	height: 110px;
+}
+.case_botom li{
+	float: left;
+	margin-right: 950px;
+	margin-bottom: 14px;
+}
+.case_botom h4{
+	font-family: 'Franklin Gothic';
+	font-size: 25px;
+	line-height: 20px;
+	font-weight: bold;
+	letter-spacing: -0.06em;
+	color: #384354;
+	margin-bottom: 14px;
+}
+.case_botom p{
+	font-family: Calibri;
+	line-height: 1.2;
+	font-weight: 400;
+	letter-spacing: -0.06em;
+	color: #3f495a;
+	margin-top: 5px;
+}
+.case_botom span{
+	color: #3f495a;
+}
+.list_left{
+	font-size: 16.7px;
+}
+
+.bottom_right{
+	display: inline-block;
+	position: relative;/*Сделал изначально список из 3-х элеменотв и с помощью flex,padding сдвинул как в макете, но 1 и 3 не вставали на нужном расстояннии друг под другом, либо обратно выстраивались в ряд по вертикали(когда во втором элементе увиличивался контент) решил позиционировать(*/
+	left: 300px;
+	bottom: 130px;
+	width: 850px;
+	height: 73;
+	font-family: Calibri;
+	font-size: 20.9px;
+	line-height: 1.2;
+	font-weight: 400;
+	letter-spacing: -0.06em;
+	color: #3f495a;
+}
+.case_link{
+	width: 201px;
+	height: 44px;
+	background: #63b5ae;
+	border-radius: 5px;
+	text-align: center;
+	padding: 15px 42px;
+	position: relative;
+	bottom: 95px;
+}
+.case_link span{
+	font-family: 'Franklin Gothic';
+	font-size: 20.9px;
+	line-height: 20px;
+	font-weight: 500;
+	letter-spacing: -0.06em;
+	color: #ffffff;
+}
+.calculation{
+	width: 956px;
+	height: 687px;
+	margin: 166px 0px 0px 459px;
+}
+.calculation_list h4{
+	font-family: 'Franklin Gothic';
+	font-size: 29.2px;
+	line-height: 1.2;
+	font-weight: 500;
+	letter-spacing: 0.02em;
+	color: #1c2534;
+}
+.calculation_list select{
+	width: 891px;
+	color: #737373;
+	margin-bottom: 44px;
+}
+.type_index{
+	height: 57px;
+}
+.disain{
+	height: 57px;/* Сделал через классы,т.к пытался через псевдоклассы,эффекта не было, и изначально делал через last-child , но похоже родительские стили были главнее */
+}
+.adaptive{
+	height: 97px;
+}
+.calculation{
+	margin-top: 250px;
+}
+.calculation_list {
+	padding: 0px 30px;
+}
+.calculation h2{
+	text-align: center;
+	font-family: 'Franklin Gothic';
+	font-size: 45.9px;
+	line-height: 1.2;
+	font-weight: bold;
+	letter-spacing: -0.06em;
+	color: #1c2534;
+}
+.calculation_list span{
+	font-family: 'Franklin Gothic';
+	font-size: 16.7px;
+	line-height: 1.2;
+	font-weight: 500;
+	letter-spacing: 0.02em;
+}
+.calculation_list h6{
+	font-family: 'Franklin Gothic';
+	font-size: 23px;
+	line-height: 20px;
+	font-weight: 100;
+	letter-spacing: -0.06em;
+	color: #1c2534;
+	margin-bottom: 10px;
+}
+.calculation_list p{
+	position: relative;/* Несовсем понял как расположить 0 справа, пробовал пробелы и заголовки менял на теги p. В итогеснова решил позиционированием */
+	bottom: 32px;
+	left: 910px;
+	font-size: 23px;
+}
+.statistic{
+	width: 100%;
+	background: url('../img/fon_3.jpg') 90% 100%/auto no-repeat;
+	padding: 0px 275px;
+	height: 499px;
+	margin-top: 98px;
+
+}
+.statistic h3{
+	font-family: 'Franklin Gothic';
+	font-size: 33.4px;
+	line-height: 499px;
+	font-weight: 500;
+	letter-spacing: -0.06em;
+	color: #323e4f;
+	position: relative;/*Снова решил позиционировать и подогнать линию*/
+	bottom: 135px;
+	left: 700px;
+	background: url('../img/icons/line.png') 8% 60%/auto no-repeat;
+}
+.statistic_list li{
+	float: left;
+	padding: 40px 0px 0px 50px;
+	margin-left: 90px;
+	position: relative;
+	bottom: 250px;
+	left: 200px;
+}/* Здесь тоже все подгонял позиционированнием */
+.statistic_list h4{
+	font-family: Impact;
+	font-size: 37.5px;
+	line-height: 20px;
+	font-weight: 400;
+	color: #323e4f;
+	text-align: center;
+	padding: 33px 50px 32px 0px;
+}
+.statistic_list p{
+	font-family: 'Franklin Gothic';
+	font-size: 16.7px;
+	font-weight: 500;
+	letter-spacing: -0.06em;
+	padding-right: 38px;
+}
+.statistic li:nth-child(1){
+	background: url('../img/icons/smayl.png') 50% 0%/auto no-repeat;
+}
+.statistic li:nth-child(2){
+	background: url('../img/icons/skobki.png') 50% 0%/auto no-repeat;
+}
+.statistic li:nth-child(3){
+	background: url('../img/icons/galochka.png') 50% 0%/auto no-repeat;
+}
+.statistic li:nth-child(4){
+	background: url('../img/icons/kubok.png') 50% 0%/auto no-repeat;
+}
+.reviews{
+		border: 2px solid red;
+	width: 100%;
+	height: 600px;
+}
+.reviews h3{
+	font-family: 'Franklin Gothic';
+	font-size: 33.4px;
+	line-height: 35px;
+	font-weight: 500;
+	letter-spacing: -0.06em;
+	color: #243042;
+
+	border: 2px solid red;
+}
