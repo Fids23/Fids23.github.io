@@ -34,12 +34,14 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*--------------------*/
 body{
 	font-family: Arial, sans-serif;
-
+	width: 100%; 
+	margin: 0px auto;
 }
 nav{
-	width: 100%;
+	width: 1920px;
 	height: 61px;
-	background: #344051;
+	background: #344051; 
+	margin: 0px auto;
 }
 .logo {
 	font-size: 23.4px;
@@ -50,7 +52,7 @@ nav{
 }
 .menu {
 	float: left;
-	padding-left: 428px;
+	margin-left: 428px;
 }
 .menu_list li {
 	font-size: 16px;
@@ -61,12 +63,14 @@ nav{
 	text-transform: uppercase;
 }
 .main{
-	width: 100%;
-	height: calc(100% - 61px);
-	background: url('../img/paren.jpg')90% 100%/auto 85% no-repeat,url('../img/fon.jpg') center/cover no-repeat;
+
+	margin: 0px auto;
+	width: 1920px;;
+	height: 1067px;
+	background: url('../img/paren.jpg') right no-repeat,url('../img/fon.jpg') center no-repeat;
 }
 .container{
-	margin: 400px 0px 0px 300px;
+	padding: 432px 0px 0px 300px;
 	float: left;
 	color: #2c384a;
 	text-align: center;
@@ -91,95 +95,95 @@ font-weight: bold;
 	color: #6d7682;
 }
 .about_myself h3{
+	width: 100%;
 	font-size: 33.4px;
 	color: #263244;
 	text-align: center;
-	margin:75px 0px 31px 0px;
+	padding:101px 0px 31px 0px;
 	font-weight: bold;
 	line-height: 172px;
 	letter-spacing: -0.06em;
-	background: url('../img/icons/line.png') 50% 75%/auto no-repeat;
+	background: url('../img/icons/line.png') 50% 80%  no-repeat;
 }
 .round_foto {
 	height: 202px;
-	background: url('../img/paren_grey.jpg') 50% -30%/auto no-repeat;
+	background: url('../img/paren_grey.jpg')center no-repeat;
 	margin-bottom: 22px;
 }
-.text{ 
-	height: 110px;
-	width: 735px;
-	margin-left: 1050px;
+.text{
+	max-width: 734px;
+	margin: 0px auto;
 }
 .text p{
 	font-family: Calibri;
 	font-size: 17.7px;
 	line-height: 17.7px;
 	letter-spacing: -0.06em;
-	color: #3f495a;
-	margin-bottom: 20px;
+	color: #3f495a; 
+	text-align: left;
+	float: top;
+	margin-top: 40px;
 }
 .resume{
+	width: 165px;
 	height: 34px;
 	border: 0.5px solid #6f707e;
 	border-radius: 6px;
-	display: inline-block;
+	display: block;
 	line-height: 34px;
 	font-size: 16.7px;
 	letter-spacing: -0.06em;
-	color: #6f707e;
-	margin: 0px 0px 111px 1350px;
-	padding: 0px 12px;
+	color: #6f707e; 
+	margin: 33px auto;
+	padding-left:10px;
 }
 .resume span{
+	width: 100%;
 	color: #6f707e;
 	background: url('../img/icons/download.png') left no-repeat;
-	padding-left: 20px;
+	padding-left: 23px;
 }
 .my_skills{
 	width: 100%;
-	background: url('../img/fon_2.jpg') 90% 100%/auto no-repeat;
-	padding: 0px 275px;
 	height: 523px;
-}
-.my_skills h3{
-	text-align: center;
-	font-size: 33.4px;
-	letter-spacing: -0.06em;
-	color: #263244;
-	font-weight: bold;
-	padding: 107px 0px 31px 0px;
-	background: url('../img/icons/line.png') bottom no-repeat;
+	background: url('../img/fon_2.jpg') top no-repeat;
+	margin-top: 101px;
+	padding-top: 107px;
+
+
 }
 .my_skills_list{
-	margin-left: 530px;
+	max-width: 1200px;
+	margin: 0px auto;
+	display:block;
+
+}
+.my_skills_title{
+	text-align: center;
+	margin: 0px auto 31px auto;
+	background: url('../img/icons/line.png')bottom no-repeat;
+	padding-bottom: 31px;
+	font-family: 'Franklin Gothic';
+	font-size: 33.4px;
+	line-height: 34px;
+	font-weight: 500;
+	letter-spacing: -0.06em;
+	color: #263244;
 }
 .my_skills_list li{
 	float: left;
-	margin:85px 0px 0px 83px;
-	padding-top: 40px;
+	padding-left: 30px;
+	text-align: center;
+	margin: 0px 25px;
+	padding-top: 33px;
 }
 .my_skills_list h5{
-	border: 1px solid rgba(255,255,255,0.18);
 	font-family: Bahnschrift;
 	font-size: 18.6px;
-	font-weight: 600px;
+	padding-top: 75px;
+	font-weight: 600;
 	letter-spacing: -0.06em;
 	color: #cf7600;
-	line-height:35px;
-	text-align: center; 
-	padding: 34px 0px 0px 0px;
-}
-.my_skills_list li:nth-child(1){
-	background: url('../img/icons/nout.png') 50% 0%/auto no-repeat;
-}
-.my_skills_list li:nth-child(2){
-	background: url('../img/icons/znak.png') 50% 0%/auto no-repeat;
-}
-.my_skills_list li:nth-child(3){
-	background: url('../img/icons/raketa.png') 50% 0%/auto no-repeat;
-}
-.my_skills_list li:nth-child(4){
-	background: url('../img/icons/grammofon.png') 50% 0%/auto no-repeat;
 }
 .my_skills_list p{
 	font-family: Calibri;
@@ -188,9 +192,19 @@ font-weight: bold;
 	font-weight: 400;
 	letter-spacing: -0.06em;
 	color: #3f495a;
-	width: 200px;
-	margin-top: 5px;
-	text-align: center;
+	padding-top: 15px
+}
+.my_skills_list li:nth-child(1) h5{
+	background: url('../img/icons/nout.png')top no-repeat;
+}
+.my_skills_list li:nth-child(2) h5{
+	background: url('../img/icons/znak.png')top no-repeat;
+}
+.my_skills_list li:nth-child(3) h5{
+	background: url('../img/icons/raketa.png')top no-repeat;
+}
+.my_skills_list li:nth-child(4) h5{
+	background: url('../img/icons/grammofon.png')top no-repeat;
 }
 .case{
 margin-top: 103px;
@@ -209,14 +223,16 @@ margin-top: 103px;
 	padding-bottom: 30px;
 }
 .case_title p{
-	margin-top: 24px;
 	font-family: Calibri;
 	font-size: 16.7px;
 	line-height: 1.2;
 	font-weight: 400;
 	letter-spacing: -0.06em;
 	color: #3f495a;
+	padding-top: 35px;
 }
+
+
 .case_img{
 	width: 1169px;
 	height: 592px;
@@ -224,47 +240,19 @@ margin-top: 103px;
 	margin-top: 39px;
 	background: url('../img/example.jpg') center no-repeat;
 }
-.case_botom{
-	padding-left:300px;
-	margin-top: 38px;
-	height: 110px;
-}
-.case_botom li{
-	float: left;
-	margin-right: 950px;
-	margin-bottom: 14px;
-}
-.case_botom h4{
-	font-family: 'Franklin Gothic';
-	font-size: 25px;
-	line-height: 20px;
-	font-weight: bold;
-	letter-spacing: -0.06em;
-	color: #384354;
-	margin-bottom: 14px;
-}
-.case_botom p{
-	font-family: Calibri;
-	line-height: 1.2;
-	font-weight: 400;
-	letter-spacing: -0.06em;
-	color: #3f495a;
-	margin-top: 5px;
-}
-.case_botom span{
-	color: #3f495a;
-}
-.list_left{
-	font-size: 16.7px;
-}
+.case_list {
+	margin: 0px auto;
+	width: 1169px;
+	margin-top: 39px;
 
-.bottom_right{
-	display: inline-block;
-	position: relative;/*Сделал изначально список из 3-х элеменотв и с помощью flex,padding сдвинул как в макете, но 1 и 3 не вставали на нужном расстояннии друг под другом, либо обратно выстраивались в ряд по вертикали(когда во втором элементе увиличивался контент) решил позиционировать(*/
-	left: 300px;
-	bottom: 130px;
-	width: 850px;
-	height: 73;
+}
+.case li{
+	float: left;
+
+}
+.case_list_right{
+	width: 855px;
+	margin-left: 80px;
 	font-family: Calibri;
 	font-size: 20.9px;
 	line-height: 1.2;
@@ -272,17 +260,40 @@ margin-top: 103px;
 	letter-spacing: -0.06em;
 	color: #3f495a;
 }
-.case_link{
+.case_list_left{
+	width: 220px;
+	font-family: Calibri;
+	font-size: 16.7px;
+	line-height: 1.2;
+	font-weight: 400;
+	letter-spacing: -0.06em;
+	color: #3f495a;
+}
+.case_list h4{
+	font-family: 'Franklin Gothic';
+	font-size: 25px;
+	line-height: 20px;
+	font-weight: 500;
+	letter-spacing: -0.06em;
+	color: #384354;
+}
+.case_list_left p{
+	padding-top: 14px;
+	}
+
+.case_list_right p{
+padding-top: 6px;
+}
+.case_list_link{
+	margin-top: 22px;
 	width: 201px;
 	height: 44px;
-	background: #63b5ae;
+	background-color: #63b5ae;
 	border-radius: 5px;
 	text-align: center;
-	padding: 15px 42px;
-	position: relative;
-	bottom: 95px;
+	padding: 15px 0px;
 }
-.case_link span{
+.case_list_link span{
 	font-family: 'Franklin Gothic';
 	font-size: 20.9px;
 	line-height: 20px;
@@ -290,10 +301,14 @@ margin-top: 103px;
 	letter-spacing: -0.06em;
 	color: #ffffff;
 }
+
+
+
+
 .calculation{
 	width: 956px;
 	height: 687px;
-	margin: 166px 0px 0px 459px;
+	margin: 408px auto 0px auto;
 }
 .calculation_list h4{
 	font-family: 'Franklin Gothic';
@@ -306,22 +321,20 @@ margin-top: 103px;
 .calculation_list select{
 	width: 891px;
 	color: #737373;
-	margin-bottom: 44px;
+	padding-left: 10px;
 }
 .type_index{
 	height: 57px;
 }
 .disain{
-	height: 57px;/* Сделал через классы,т.к пытался через псевдоклассы,эффекта не было, и изначально делал через last-child , но похоже родительские стили были главнее */
+	height: 57px;
 }
 .adaptive{
 	height: 97px;
 }
-.calculation{
-	margin-top: 250px;
-}
-.calculation_list {
-	padding: 0px 30px;
+
+.calculation_list li{
+	padding-top: 54px;
 }
 .calculation h2{
 	text-align: center;
@@ -348,40 +361,50 @@ margin-top: 103px;
 	color: #1c2534;
 	margin-bottom: 10px;
 }
-.calculation_list p{
-	position: relative;/* Несовсем понял как расположить 0 справа, пробовал пробелы и заголовки менял на теги p. В итогеснова решил позиционированием */
-	bottom: 32px;
-	left: 910px;
+.calculation_list p{ 
 	font-size: 23px;
+	padding-top: 9px;
 }
+.calculation_left {
+	display: inline-block;
+	text-align: left;
+}
+.calculation_right {
+	display: inline-block;
+	text-align: right;
+	margin-left: 751px;
+}
+
+
 .statistic{
-	width: 100%;
-	background: url('../img/fon_3.jpg') 90% 100%/auto no-repeat;
-	padding: 0px 275px;
+	display:block;
+	width: 1920px;
+	background: url('../img/fon_3.jpg') center no-repeat; 
 	height: 499px;
-	margin-top: 98px;
+	margin: 154px auto 0px auto;
+	text-align: center;
 
 }
 .statistic h3{
+	text-align: center;
 	font-family: 'Franklin Gothic';
-	font-size: 33.4px;
-	line-height: 499px;
+	font-size: 33.4px; 
 	font-weight: 500;
 	letter-spacing: -0.06em;
 	color: #323e4f;
-	position: relative;/*Снова решил позиционировать и подогнать линию*/
-	bottom: 135px;
-	left: 700px;
-	background: url('../img/icons/line.png') 8% 60%/auto no-repeat;
+	padding-top: 103px;
+	padding-bottom: 20px;
+	background: url('../img/icons/line.png') bottom no-repeat;
+}
+.statistic_list{
+	margin: 0px auto;
+	padding-left: 280px;
 }
 .statistic_list li{
 	float: left;
 	padding: 40px 0px 0px 50px;
-	margin-left: 90px;
-	position: relative;
-	bottom: 250px;
-	left: 200px;
-}/* Здесь тоже все подгонял позиционированнием */
+	margin-left: 90px; 
+}
 .statistic_list h4{
 	font-family: Impact;
 	font-size: 37.5px;
@@ -409,7 +432,7 @@ margin-top: 103px;
 }
 .statistic li:nth-child(4){
 	background: url('../img/icons/kubok.png') 50% 0%/auto no-repeat;
-}
+}/*
 .reviews{
 		border: 2px solid red;
 	width: 100%;
@@ -424,4 +447,4 @@ margin-top: 103px;
 	color: #243042;
 
 	border: 2px solid red;
-}
+}*/
