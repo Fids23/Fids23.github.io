@@ -49,6 +49,16 @@ nav{
 	color: #ffffff;
 	padding-left: 387px;
 	float: left;
+	animation: commming 2s;
+}
+/*Анимация логотипа*/
+@keyframes commming{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
 }
 .menu {
 	float: left;
@@ -59,8 +69,54 @@ nav{
 	line-height: 61px;
 	color: #ffffff;
 	float: left;
-	margin-right: 40px;
+	margin-right: 30px;
 	text-transform: uppercase;
+	transition: all 0.5s ease 0s;
+	animation: shifting 1.8s ease forwards;
+	opacity: 0;
+}
+/*Анмация меню*/
+.menu_list li:nth-child(1){
+	animation-delay: 0.3s;
+}
+.menu_list li:nth-child(2){
+	animation-delay: 0.6s;
+}
+.menu_list li:nth-child(3){
+	animation-delay: 0.9s;
+}
+.menu_list li:nth-child(4){
+	animation-delay: 1.2s;
+}
+.menu_list li:nth-child(5){
+	animation-delay: 1.5s;
+}
+.menu_list li:nth-child(6){
+	animation-delay: 1.8s;
+}
+@keyframes shifting{
+	from{
+		opacity: 0;
+		margin-top: -90px;
+	}
+	to{
+		opacity: 1;
+		margin-top: 0px;
+	}
+}
+.menu_list li a{
+	padding: 5px 10px;
+}
+.menu_list li a:visited{
+	color: white;
+}
+.menu_list li a:hover{
+	color: #e88604;
+
+}
+/*Анимация меню*/
+.menu_list li:hover{
+	transform: scale(1.3,1.3);
 }
 .main{
 
@@ -93,6 +149,16 @@ font-weight: bold;
 	margin: 50px 26px 0px 0px;
 	font-size: 18.9px;
 	color: #6d7682;
+	 -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+/*Анимация кнопок*/
+.container input:hover{
+	box-shadow: 0 0 40px 40px #344051 inset;
+	color: white;
+}
+.container input:active{
+	transform: scale(0.85);
 }
 .about_myself h3{
 	width: 100%;
@@ -306,9 +372,11 @@ padding-top: 6px;
 
 
 .calculation{
-	width: 956px;
+	width: 100%;
 	height: 687px;
 	margin: 408px auto 0px auto;
+	display:inline-block;
+	text-align: center;
 }
 .calculation_list h4{
 	font-family: 'Franklin Gothic';
@@ -317,6 +385,7 @@ padding-top: 6px;
 	font-weight: 500;
 	letter-spacing: 0.02em;
 	color: #1c2534;
+
 }
 .calculation_list select{
 	width: 891px;
@@ -335,6 +404,11 @@ padding-top: 6px;
 
 .calculation_list li{
 	padding-top: 54px;
+	text-align: left;
+	display: inline-block;
+	float: top;
+	width: 956px;
+
 }
 .calculation h2{
 	text-align: center;
@@ -397,7 +471,7 @@ padding-top: 6px;
 	background: url('../img/icons/line.png') bottom no-repeat;
 }
 .statistic_list{
-	margin: 0px auto;
+	margin: 88px auto 0px auto;
 	padding-left: 280px;
 }
 .statistic_list li{
@@ -432,11 +506,10 @@ padding-top: 6px;
 }
 .statistic li:nth-child(4){
 	background: url('../img/icons/kubok.png') 50% 0%/auto no-repeat;
-}/*
-.reviews{
-		border: 2px solid red;
+}
+.reviews{ 
 	width: 100%;
-	height: 600px;
+	text-align: center; 
 }
 .reviews h3{
 	font-family: 'Franklin Gothic';
@@ -445,6 +518,178 @@ padding-top: 6px;
 	font-weight: 500;
 	letter-spacing: -0.06em;
 	color: #243042;
+	background: url('../img/icons/line.png') bottom no-repeat;
+	padding-bottom: 34px;
+	margin-top: 104px;
+}
 
+.reviews li:nth-child(2){
+	margin-top: 58px;
+	background: url('../img/fotka.jpg')top no-repeat;
+	padding-top: 130px;
+
+}
+.reviews li:nth-child(3){
+	margin-top: 33px;
+	font-family: Calibri;
+}
+.reviews li{
+	font-family: Calibri;
+	font-size: 16.7px;
+	line-height: 1.2;
+	font-weight: 400;
+	letter-spacing: -0.06em;
+	color: #243042;
+}
+.reviews_point{
+	width: 100px;
+	height: 30px;
+	margin: 48px auto 0 auto;
+}
+.reviews_point li{
+	float: left;
+	width: 30px;
+	height: 15px;
+	padding-left: 15px;
+	background: url('../img/icons/pointg.png') center no-repeat ;
+}
+.reviews_point li:hover{
+	background: url('../img/icons/pointor.png') center no-repeat ;
+}
+/*Простая анимация точки*/
+.contacts {
+	width: 1920px;
+	height: 808px;
+	background: url('../img/fon_180.png') center no-repeat;
+	margin: 91px auto 0px auto;
+}
+.contacts_title {
+	margin: 0px auto;
+	text-align: center;
+	padding-top: 105px;
+}
+.contacts_title h3{
+	font-family: 'Franklin Gothic';
+	font-size: 33.4px;
+	font-weight: 500;
+	letter-spacing: -0.06em;
+	color: #ffffff;
+	background: url('../img//icons/line.png') bottom no-repeat;
+	padding-bottom: 28px;
+}
+.contacts_title p{
+	font-family: Calibri;
+	font-size: 16.7px;
+	line-height: 1.2;
+	font-weight: 400;
+	letter-spacing: -0.06em;
+	color: #ffffff;
+	margin-top: 25px;
+}
+.contacts_list {
+	width: 800px;
+	font-family: Calibri;
+	font-size: 16.7px;
+	line-height: 1.2;
+	font-weight: 400;
+	letter-spacing: -0.06em;
+	color: #ffffff;
+	margin: 50px auto 0px auto;
+	display:block;
+}
+.contacts_list li{
+	float: left;
+	text-align: center;
+	margin-left: 90px;
+	padding-top: 30px;
+}
+.contacts_list span{
+	color: white;
+}
+.contacts_list li:nth-child(1){
+	background: url('../img/icons/geo_195.png') top no-repeat;
+
+}
+.contacts_list li:nth-child(2){
+	background: url('../img/icons/konvert_196.png') top no-repeat;
+}
+.contacts_list li:nth-child(3){
+	background: url('../img/icons/truba_197.png') top no-repeat;
+}
+.contacts_messege{
+	font-family: 'Franklin Gothic';
+	font-size: 20.9px;
+	font-weight: 500;
+	letter-spacing: -0.06em;
+	color: #ffffff; 
+	margin: 40px auto 0px auto;
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+}
+.contacts_forms {
+	width: 100%;
+	text-align: center;
+	margin: 22px auto 0px auto;
+	display: inline-block;
+
+}
+.contacts_forms li{
+	flex: left;
+	display: inline-block;
+	font-size: 30px;
+	padding:10px 0px 0px 30px;
+}
+textarea {
+	resize: none;
+}
+.contacts_send {
+	border-radius: 24px;
+	text-align: center;
+	margin-top: 35px;
+}
+.contacts_send span{
+	color: white;
+	border-radius: 24px;
+	height: 46px;
+	border: 2px solid #f9faff;
+	border-radius: 5px;
+	font-family: 'Franklin Gothic';
+	font-size: 20.9px;
+	font-weight: 500;
+	letter-spacing: -0.06em;
+	color: #ffffff;
+	padding: 10px 15px;
+}
+.contacts_socialnet {}
+.map {
+	background: url('../img/karta_kopiya_142.png')center no-repeat;
+	width: 1920px;
+	height: 356px;
+	color: #000000;
+	text-align: center;
+}
+.map p{
+	font-family: Arial;
+	font-size: 17.1px;
+	font-weight: 700;
+	letter-spacing: -0.06em;
+	margin: 50px auto 0px auto;
+	display:inline-block;
+	background: white;
 	border: 2px solid red;
-}*/
+	padding: 5px 10px;
+}
+.bottom {
+	width: 1920px;
+	height: 96px;
+	color: white;
+	background: #354051;
+	text-align: center;
+	margin: 0px auto;
+
+}
+.bottom p{
+	height: 100%;
+	padding-top: 30px;
+}
