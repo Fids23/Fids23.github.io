@@ -1,12 +1,28 @@
 "use strict"
-let name = prompt("What is your name?");
-let site = confirm("Do you want a site?")
-if (site == true) {
-	alert("Select item by number");
-}
-else {
-	alert("=(")
-}
-/*let site = prompt("What type of site do you want?/n 1)visit");
-console.log(site);
-*/
+
+//Анимация scrooll для nav
+$('a[href^="#"]').click(function () {
+	let valHref = $(this).attr("href");
+	$('html,body').animate({ scrollTop: $(valHref).offset().top + "px" })
+})
+
+
+//scrooll active
+$(window).scroll(() => {
+	let scrollDistance = $(window).scrollTop();
+
+	$(".section").each((i, el) => {
+
+		if ($(el).offset().top - $("nav").outHeight() <= scrollDistance) {
+			$("nav a").each((i, el) => {
+				if ($(el).hasClass("active")) {
+					$(el).removeClass("active");
+				}
+			});
+			$('nav li:eq(' + i + ')').find('a').addClass('active');
+		}
+	});
+});
+
+
+

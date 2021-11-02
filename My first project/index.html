@@ -2,10 +2,10 @@
 <html lang="ru">
 
 <head>
-	<title>CSS. Часть №3 (Свойства блоков - отступы, размеры, характеристики)</title>
+	<title>My first project</title>
 	<link rel="stylesheet" href="css/style.css" />
 	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
-	<meta name="viewport" content="width=device-width, inital-scale=1.0">
+	<meta name="viewport" content="width=device-width, inital-scale=1.0" />
 </head>
 
 <body>
@@ -14,12 +14,12 @@
 			<div class="logo">Дмитрий Хомский</div>
 			<div class="menu">
 				<ul class="menu_list">
-					<li><a href="#">ОБО МНЕ</a></li>
-					<li><a href="#">УСЛУГИ</a></li>
-					<li><a href="#">КЕЙСЫ</a></li>
-					<li><a href="#">ПРАЙС</a></li>
-					<li><a href="#">ОТЗЫВЫ</a></li>
-					<li><a href="#">КОНТАКТЫ</a></li>
+					<li><a class="active" href="#myself">ОБО МНЕ</a></li>
+					<li><a href="#skills">УСЛУГИ</a></li>
+					<li><a href="#kase">КЕЙСЫ</a></li>
+					<li><a href="#price">ПРАЙС</a></li>
+					<li><a href="#review">ОТЗЫВЫ</a></li>
+					<li><a href="#contact">КОНТАКТЫ</a></li>
 				</ul>
 			</div>
 		</nav>
@@ -32,6 +32,7 @@
 			<input type="submit" value="Мои работы">
 		</div>
 	</div>
+	<section id="myself"></section>
 	<div class="about_myself">
 		<div class="about_myself_title">
 			<h3>ОБО МНЕ</h3>
@@ -51,6 +52,7 @@
 			</a>
 		</div>
 	</div>
+	<section id="skills"></section>
 	<div class="my_skills">
 		<div class="my_skills_title">
 			<h3>ЧТО Я УМЕЮ</h3>
@@ -79,6 +81,7 @@
 			</ul>
 		</div>
 	</div>
+	<section id="kase"></section>
 	<div class="case">
 		<div class="case_title">
 			<h3>
@@ -116,7 +119,9 @@
 	</div>
 	<div class="calculation">
 		<h2>Расчет стоимости</h2>
+		<section id="price"></section>
 		<div class="calculation_list">
+			<section id="price"></section>
 			<ul>
 				<li>
 					<h4>ТИП САЙТА</h4>
@@ -174,6 +179,7 @@
 			</ul>
 		</div>
 	</div>
+	<section id="review"></section>
 	<div class="reviews">
 		<ul>
 			<li>
@@ -196,6 +202,7 @@
 		</ul>
 	</div>
 	<footer>
+		<section id="contact"></section>
 		<div class="contacts">
 			<div class="contacts_title">
 				<h3>MOИ КОНТАКТЫ</h3>
@@ -257,6 +264,7 @@
 			</p>
 		</div>
 	</footer>
+	<script src="js/jquery-3.6.0.min.js"></script>
 	<script src="js/main.js"></script>
 </body>
 
