@@ -1,2 +1,2 @@
-# Дмитрий Хомский
+# Дмитрий Fids
 My first project
